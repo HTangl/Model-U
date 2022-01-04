@@ -12,7 +12,7 @@ I am not responsible if you recieve defective boards.
 
 The following is a short guide on the ordering proccess  
 
-1. Download the files from this github by clicking on "Code" and then on "Download Zip". Unzip the "Model-U-main.zip" but do not unzip the "Model-U_panel.zip" folders  
+1. Download the files from this repository by clicking on "Code" and then on "Download Zip". Unzip the "Model-U-main.zip" but do not unzip the "Model-U_panel.zip" folders  
 ![](https://github.com/HTangl/Model-U/blob/main/JLC%20Ordering%20Guide%20Pics/Step%2000.png?raw=true)  
 
 2. From the JLCPCB home page click on "Order now"  
