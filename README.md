@@ -18,7 +18,7 @@ The following is a short guide on the ordering proccess
 2. From the JLCPCB home page click on "Order now"  
 ![](https://github.com/HTangl/Model-U/blob/main/JLC%20Ordering%20Guide%20Pics/Step%2001.png?raw=true)  
 
-3. On the next page click the "Add gerber file" button and select one of the "Model-U_panel.zip" files in the "Model-U JLC Files" folder. For this guide I'm using the 10 piece panel  
+3. On the next page click the "Add gerber file" button and select one of the "Model-U_panel.zip" files in the "Model-U JLC Files" folder. For this guide I'm using the 10 piece panel. Keep in mind JLC's minimum order quantity is 5 so since I'm using the 10 piece panel file I will end up with 50 individual breakout boards total.  
 ![](https://github.com/HTangl/Model-U/blob/main/JLC%20Ordering%20Guide%20Pics/Step%2002.png?raw=true)  
 
 4. Change the delivery format to "Panel by Customer" and then input the amount of rows and columns needed, for the 10 piece panel it is 2 columns and 5 rows  
@@ -33,5 +33,5 @@ The following is a short guide on the ordering proccess
 7. On this page just leave everything default and click "NEXT"  
 ![](https://github.com/HTangl/Model-U/blob/main/JLC%20Ordering%20Guide%20Pics/Step%2006.png?raw=true)  
 
-8. The final step will show you a preview of what the boards will look like. It is normal for the parts to be off center and only displayed on one board. JLC will place the parts correctly after you place the order. All you have to do now is click "SAVE TO CART" and then finish the checkout process  
+8. The final step will show you a preview of what the boards will look like. It is normal for the parts to be off center and only displayed on one board. JLC will place the parts correctly after you place the order. ALso note that if you are ordering less than 50 individual breakout boards you will still be charged for 100 resistors, this is normal and is just a JLC policy. For some small parts they have a minimum quantity. Lasty please do not use the price listed in this picture as a refrence, the price shown doesn't include tax or shipping and JLC does change their price from time to time. All you have to do now is click "SAVE TO CART" and then finish the checkout process  
 ![](https://github.com/HTangl/Model-U/blob/main/JLC%20Ordering%20Guide%20Pics/Step%2007.png?raw=true)
