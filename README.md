@@ -5,6 +5,8 @@ The Model-U is a USBC breakout board designed by [Crane](https://github.com/Cran
 It is specificly designed for use with DIY rectangle controllers  
 If you need a wiring guide please check out the [Crane's Lab Discord](https://discord.com/invite/S3qgZWD)  
 
+I sell these on my [Etsy shop](https://www.etsy.com/shop/HTangl) if you only want 1 or 2 of them.
+
 This repository contains the files necessary to order these boards from [JLCPCB](https://jlcpcb.com/).  
 Please be aware that JLC does not have a great track record when it comes to SMT part assembly.  
 Crane had several of these boards manufactured and had about a 5% failure rate so order at your own risk.  
