@@ -10,6 +10,29 @@ Please be aware that JLC does not have a great track record when it comes to SMT
 Crane had several of these boards manufactured and had about a 5% failure rate so order at your own risk.  
 I am not responsible if you recieve defective boards.  
 
+If you plan to sell these I recommend testing them first.
+To do this you will need a USBC to USBC 3.1 gen 2 cable and a 24 pin USBC breakout board.
+Here are links to the breakout board and cable that I use.
+Breakout: https://amazon.com/dp/B07771CFFM or https://amazon.com/dp/B09L816S5W
+USB Cable: https://amazon.com/dp/B07THFJ1J5
+
+To test the boards you need a multimeter with a continuity testing mode.  
+Start by connecting the Model U to the 24 pin breakout.
+Next put one lead of the meter on any pin of the model u and then drag the other lead of your meter across every pin on the 24 pin breakout.
+Use the chart below to determine which pins should have continuity.
+If you get continuity on a pin that should not have continuity, such as D+ on the MU getting coninuity on a GND pin, then the Model U is broken.  
+
+The pins on the left are the Model U and the right is the 24 pin breakout.
+
+5V - VBUS (A4, A9, B4, B9)
+TX - RX1/2- (A10, B10)
+3V - RX1/2+ (A11, B11)
+Gnd - GND and Shield (if applicable) (A1, A12, B1, B12)
+D+ - D+ (Either A6 or B6 you will only get continuity on one)
+D- - D- (Either A7 or B7 you will only get continuity on one)
+RX - TX1/2- (A3, B3)
+D3V - TX1/2+ (A2, B2)
+
 The following is a short guide on the ordering proccess  
 
 1. Download the files from this repository by clicking on "Code" and then on "Download Zip". Unzip the "Model-U-main.zip" but do not unzip the "Model-U_panel.zip" folders  
