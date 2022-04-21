@@ -15,7 +15,7 @@ Crane had several of these boards manufactured and had about a 5% failure rate s
 I am not responsible if you recieve defective boards.  
 
 There are also files for a modified version of the board with 3mm mounting holes added if you plan to mount the board with screws. Those are the "Model Bird" files, cuz they kinda look like a Model U with wings.  
-![](https://raw.githubusercontent.com/HTangl/Model-U/main/Pictures/Model%20Bird%203D%20Model.png)
+![](https://raw.githubusercontent.com/HTangl/Model-U/main/Pictures/Model%20Bird%201.png)
 
 ### How to order from JLCPCB ###
 
