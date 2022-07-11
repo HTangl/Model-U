@@ -1,20 +1,22 @@
-# Model-U
+# Model UD
 
-![](https://raw.githubusercontent.com/HTangl/Model-U/main/Pictures/Model-U.jpg)  
+![](https://raw.githubusercontent.com/HTangl/Model-UD/main/Pictures/Model%20UD%20Front.jpg)  
 
-The Model-U is a USBC breakout board designed by [Crane](https://github.com/Crane1195).  
+The Model UD is a USBC breakout board based on the Model U designed by [Crane](https://github.com/Crane1195). It is exactly the same size and footprint as the Model U but integrates a schottky diode directly onto the board and adds the "VSYS" pin. This eliminates the need to add a stand alone diode to your circuit when wiring to a Raspberry Pi Pico. You can simply run a wire directly from the VSYS pin on the model UD to the VSYS pin on the Pico.  
 
-It is specificly designed for use with DIY rectangle controllers to facilitate the use of USBC to GC cables as well as standard USBC to USBA cables   
-If you need a wiring guide please check out the [Crane's Lab Discord](https://discord.com/invite/S3qgZWD)  
+The Model UD is specificly designed for use with DIY rectangle controllers to facilitate the use of USBC to GC cables as well as standard USBC to USBA cables.  
 
 I sell these on my [Etsy shop](https://www.etsy.com/shop/HTangl) if you only want 1 or 2 of them.  
 
+Here is a wiring guide.  
+![](https://raw.githubusercontent.com/HTangl/Model-UD/main/Pictures/Model%20UD%20Pico%20Wiring.png)  
+
 This repository contains the files necessary to order these boards from [JLCPCB](https://jlcpcb.com/).  
 Please be aware that JLC does not have a great track record when it comes to SMT part assembly.  
-Crane had several of these boards manufactured and had about a 5% failure rate so order at your own risk.  
-I am not responsible if you recieve defective boards.  
+It is normal to recieve 1 to 4 bad boards in every batch.  
+There is a guide at the bottom of this page that explains how to test the boards.  
 
-There are also files for a modified version of the board with 3mm mounting holes added if you plan to mount the board with screws. Those are the "Model Bird" files, cuz they kinda look like a Model U with wings.  
+There are also files for a modified version of the board with 3mm mounting holes added if you plan to mount the board with screws. Those are the "Model Bird" files, cuz they kinda look like a Model U with wings. These boards do not have the added diode that the Model UD does, I will be updating these at some point to add the diode.  
 ![](https://raw.githubusercontent.com/HTangl/Model-U/main/Pictures/Model%20Bird%201.png)
 
 ### How to order from JLCPCB ###
