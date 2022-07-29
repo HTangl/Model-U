@@ -1,0 +1,4 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,USB_C_Receptacle,Shou Han Type-C 24P QCHT,40,-29.205,180,top
+R1,R,R_0603_1608Metric,43,-40.055,180,top
+R2,R,R_0603_1608Metric,43,-41.555,180,top
