@@ -2,11 +2,11 @@
 
 ![](https://raw.githubusercontent.com/HTangl/Model-UD/main/Pictures/Model%20UD%20Front.jpg)  
 
-The Model UD is a USBC breakout board based on the Model U designed by [Crane](https://github.com/Crane1195). It is exactly the same size and footprint as the Model U but integrates a schottky diode directly onto the board and adds the "VSYS" pin. This eliminates the need to add a stand alone diode to your circuit when wiring to a Raspberry Pi Pico. You can simply run a wire directly from the VSYS pin on the model UD to the VSYS pin on the Pico.  
+The Model UD is a USB C breakout board based on the Model U designed by [Crane](https://github.com/Crane1195). It is exactly the same size and footprint as the Model U but integrates a schottky diode directly onto the board and adds the "VSYS" pin. This eliminates the need to add a stand alone diode to your circuit when wiring to a Raspberry Pi Pico. You can simply run a wire directly from the VSYS pin on the model UD to the VSYS pin on the Pico.  
 
-The Model UD is specifically designed for use with DIY rectangle controllers to facilitate the use of USBC to GC cables as well as standard USBC to USBA cables.  
+The Model UD is specifically designed for use with DIY rectangle controllers to facilitate the use of USB C to GC cables as well as standard USB C to USB A cables.  
 
-I sell these on my [Etsy shop](https://www.etsy.com/shop/HTangl) if you only want 1 or 2 of them.  
+I sell these on my [Etsy shop](https://www.etsy.com/shop/HTangl).  
 
 Here is a wiring guide.  
 ![](https://raw.githubusercontent.com/HTangl/Model-UD/main/Pictures/Model%20UD%20Pico%20Wiring.png)  
@@ -16,18 +16,18 @@ Please be aware that JLC does not have a great track record when it comes to SMT
 It is normal to receive 1 to 4 bad boards in every batch.  
 There is a guide at the bottom of this page that explains how to test the boards.  
 
-There are also files for a modified version of the board with 3mm mounting holes added if you plan to mount the board with screws. Those are the "Model Bird" files, cuz they kinda look like a Model U with wings. These boards do not have the added diode that the Model UD does, I will be updating these at some point to add the diode.  
-![](https://raw.githubusercontent.com/HTangl/Model-U/main/Pictures/Model%20Bird%201.png)
+There are also files for a modified version of the board with 3mm mounting holes added if you plan to mount the board with screws. These are the "Model BirdD" files, cuz they kinda look like a Model UD with wings.  
+![](https://github.com/HTangl/Model-UD/blob/main/Pictures/Model%20BirdD%201.png?raw=true)
 
 ### How to order from JLCPCB ###
 
-1. Download the files from this repository by clicking on "Code" and then on "Download Zip". Unzip the "Model-U-main.zip" but do not unzip the "Model-U_panel.zip" folders  
+1. Download the files from this repository by clicking on "Code" and then on "Download Zip". Unzip the "Model-UD-main.zip" but do not unzip the "Model-UD_panel.zip" folders  
 ![](https://github.com/HTangl/Model-U/blob/main/JLC%20Ordering%20Guide%20Pics/Step%2000.png?raw=true)  
 
 2. From the JLCPCB home page click on "Order now"  
 ![](https://github.com/HTangl/Model-U/blob/main/JLC%20Ordering%20Guide%20Pics/Step%2001.png?raw=true)  
 
-3. On the next page click the "Add gerber file" button and select one of the "Model-U_panel.zip" files in the "Model-U JLC Files" folder. For this guide I'm using the 10 piece panel. Keep in mind JLC's minimum order quantity is 5 so since I'm using the 10 piece panel file I will end up with 50 individual breakout boards total.  
+3. On the next page click the "Add gerber file" button and select one of the "Model-UD_panel.zip" files in the "Model-UD JLC Files" folder. For this guide I'm using the 10 piece panel. Keep in mind JLC's minimum order quantity is 5 so since I'm using the 10 piece panel file I will end up with 50 individual breakout boards total.  
 ![](https://github.com/HTangl/Model-U/blob/main/JLC%20Ordering%20Guide%20Pics/Step%2002.png?raw=true)  
 
 4. Change the delivery format to "Panel by Customer" and then input the amount of rows and columns needed, for the 10 piece panel it is 2 columns and 5 rows  
@@ -36,7 +36,7 @@ There are also files for a modified version of the board with 3mm mounting holes
 5. Scroll down and turn on the "SMT Assembly" slider, leave everything default and then click "Confirm"  
 ![](https://github.com/HTangl/Model-U/blob/main/JLC%20Ordering%20Guide%20Pics/Step%2004.png?raw=true)  
 
-6. On the next page add the BOM and CPL files from the "Model-U JLC Files" folder. Then select the "Single Piece" button and then click "NEXT"  
+6. On the next page add the BOM and CPL files from the "Model-UD JLC Files" folder. Then select the "Single Piece" button and then click "NEXT"  
 ![](https://github.com/HTangl/Model-U/blob/main/JLC%20Ordering%20Guide%20Pics/Step%2005.png?raw=true)  
 
 7. On this page just leave everything default and click "NEXT"  
@@ -48,7 +48,7 @@ There are also files for a modified version of the board with 3mm mounting holes
 ### Testing the boards ###
 
 If you plan to sell these I recommend testing them first.  
-To do this you will need a USBC to USBC 3.1 gen 2 cable and a 24 pin USBC breakout board.  
+To do this you will need a USB C to USB C 3.1 gen 2 cable and a 24 pin USB C breakout board.  
 Here are links to the breakout board and cable that I use.  
 Breakout: https://amazon.com/dp/B07771CFFM or https://amazon.com/dp/B09L816S5W  
 USB Cable: https://amazon.com/dp/B07THFJ1J5  
