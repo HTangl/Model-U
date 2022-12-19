@@ -9,7 +9,7 @@ The Model UD is specifically designed for use with DIY rectangle controllers to 
 I sell these on my [Etsy shop](https://www.etsy.com/shop/HTangl).  
 
 Here is a wiring guide.  
-![](https://raw.githubusercontent.com/HTangl/Model-UD/main/Pictures/Model%20UD%20Pico%20Wiring.png)  
+![](https://raw.githubusercontent.com/HTangl/Model-UD/main/Pictures/Model%20UD%20Wiring.png)  
 
 This repository contains the files necessary to order these boards from [JLCPCB](https://jlcpcb.com/).  
 Please be aware that JLC does not have a great track record when it comes to SMT part assembly.  
@@ -17,7 +17,7 @@ It is normal to receive 1 to 4 bad boards in every batch.
 There is a guide at the bottom of this page that explains how to test the boards.  
 
 There are also files for a modified version of the board with 3mm mounting holes added if you plan to mount the board with screws. These are the "Model BirdD" files, cuz they kinda look like a Model UD with wings.  
-![](https://github.com/HTangl/Model-UD/blob/main/Pictures/Model%20BirdD%201.png?raw=true)
+![](https://raw.githubusercontent.com/HTangl/Model-UD/main/Pictures/Model%20BirdD%202.jpg)
 
 ### How to order from JLCPCB ###
 
