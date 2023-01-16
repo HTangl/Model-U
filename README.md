@@ -9,7 +9,7 @@ The Model UD is specifically designed for use with DIY rectangle controllers to 
 I sell these on my [Etsy shop](https://www.etsy.com/shop/HTangl).  
 
 Here is a wiring guide.  
-![](https://raw.githubusercontent.com/HTangl/Model-UD/main/Pictures/Model%20UD%20Wiring.png)  
+![](https://raw.githubusercontent.com/HTangl/Model-UD/main/Pictures/Model%20UD%20Wiring2.png)  
 
 This repository contains the files necessary to order these boards from [JLCPCB](https://jlcpcb.com/).  
 Please be aware that JLC does not have a great track record when it comes to SMT part assembly.  
